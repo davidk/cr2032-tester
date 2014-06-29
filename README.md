@@ -1,4 +1,4 @@
-# CR2032 battery tester
+# CR2032 Battery Tester
 
 Test your CR2032 coin cells using this breakout. Below 2.64v, the LED ceases to light,
 indicating that the coin cell is nearing the end of its useful life.
