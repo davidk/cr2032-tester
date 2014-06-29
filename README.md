@@ -19,7 +19,8 @@ This builds 1 board. You'll get at least 3 from OSHPark.
 | 1 | 0805 imperial LED | Generic/Any type\*\*\* | D1 |
 
 I used the following parts for these, but you should really source to your desired quantity:
-\*\* 1k 0603 resistor (spare parts bin, if you really want one though.. [RMCF0603JT1K00CT-ND](http://www.digikey.com/product-detail/en/RMCF0603JT1K00/RMCF0603JT1K00CT-ND). Try another part and order a bunch for a discount/to have some on hand.)
+
+\*\* 1k 0603 resistor (from the spare parts bin, if you really want one though.. [RMCF0603JT1K00CT-ND](http://www.digikey.com/product-detail/en/RMCF0603JT1K00/RMCF0603JT1K00CT-ND). Try another part and order a bunch for a better discount / price.)
 
 \*\*\* Mouser [645-598-8130-107F](http://www.mouser.com/access/?pn=645-598-8130-107F) (Orange Dialight LED, Vf=1.7V, If=20mA)
 
