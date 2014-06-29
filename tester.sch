@@ -1,0 +1,176 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tps3809l30
+LIBS:tester-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "29 may 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BATTERY BT1
+U 1 1 52D73E68
+P 2350 4100
+F 0 "BT1" H 2350 4300 50  0000 C CNN
+F 1 "CR2032" H 2350 3910 50  0000 C CNN
+F 2 "~" H 2350 4100 60  0000 C CNN
+F 3 "~" H 2350 4100 60  0000 C CNN
+	1    2350 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR1
+U 1 1 52D73E84
+P 2350 3700
+F 0 "#PWR1" H 2350 3800 30  0001 C CNN
+F 1 "VCC" H 2350 3800 30  0000 C CNN
+F 2 "" H 2350 3700 60  0000 C CNN
+F 3 "" H 2350 3700 60  0000 C CNN
+	1    2350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 52D73E8A
+P 2350 4550
+F 0 "#PWR2" H 2350 4550 30  0001 C CNN
+F 1 "GND" H 2350 4480 30  0001 C CNN
+F 2 "" H 2350 4550 60  0000 C CNN
+F 3 "" H 2350 4550 60  0000 C CNN
+	1    2350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3700 2350 3800
+Wire Wire Line
+	2350 4400 2350 4550
+$Comp
+L GND #PWR3
+U 1 1 52D73D06
+P 2850 4200
+F 0 "#PWR3" H 2850 4200 30  0001 C CNN
+F 1 "GND" H 2850 4130 30  0001 C CNN
+F 2 "" H 2850 4200 60  0000 C CNN
+F 3 "" H 2850 4200 60  0000 C CNN
+	1    2850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 536C7784
+P 3500 3750
+F 0 "D1" H 3500 3850 50  0000 C CNN
+F 1 "LED" H 3500 3650 50  0000 C CNN
+F 2 "~" H 3500 3750 60  0000 C CNN
+F 3 "~" H 3500 3750 60  0000 C CNN
+	1    3500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 536C7793
+P 4050 3750
+F 0 "R1" V 4130 3750 40  0000 C CNN
+F 1 "R" V 4057 3751 40  0000 C CNN
+F 2 "~" V 3980 3750 30  0000 C CNN
+F 3 "~" H 4050 3750 30  0000 C CNN
+	1    4050 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 3750 3800 3750
+$Comp
+L TPS3809L30 Q1
+U 1 1 536C7E1D
+P 2850 3750
+F 0 "Q1" H 2900 3750 60  0000 R CNN
+F 1 "TPS3809L30" H 3150 3900 60  0000 R CNN
+F 2 "~" H 3000 3750 60  0000 C CNN
+F 3 "~" H 3000 3750 60  0000 C CNN
+	1    2850 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4050 2850 4200
+Wire Wire Line
+	2250 3750 2500 3750
+Connection ~ 2350 3750
+Wire Wire Line
+	3300 3750 3200 3750
+$Comp
+L GND #PWR4
+U 1 1 536C7E70
+P 4300 3850
+F 0 "#PWR4" H 4300 3850 30  0001 C CNN
+F 1 "GND" H 4300 3780 30  0001 C CNN
+F 2 "" H 4300 3850 60  0000 C CNN
+F 3 "" H 4300 3850 60  0000 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3850 4300 3750
+$Comp
+L TST P1
+U 1 1 53869E4F
+P 2250 3750
+F 0 "P1" H 2250 4050 40  0000 C CNN
+F 1 "TST" H 2250 4000 30  0000 C CNN
+F 2 "~" H 2250 3750 60  0000 C CNN
+F 3 "~" H 2250 3750 60  0000 C CNN
+	1    2250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TST P2
+U 1 1 53869E65
+P 2250 4450
+F 0 "P2" H 2250 4750 40  0000 C CNN
+F 1 "TST" H 2250 4700 30  0000 C CNN
+F 2 "~" H 2250 4450 60  0000 C CNN
+F 3 "~" H 2250 4450 60  0000 C CNN
+	1    2250 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 4450 2350 4450
+Connection ~ 2350 4450
+$EndSCHEMATC

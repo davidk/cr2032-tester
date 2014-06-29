@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Wed 28 May 2014 07:42:03 PM PDT
+
+BeginCmp
+TimeStamp = /52D73E68;
+Reference = BT1;
+ValeurCmp = CR2032;
+IdModule  = CR2032;
+EndCmp
+
+BeginCmp
+TimeStamp = /536C7784;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53869E4F;
+Reference = P1;
+ValeurCmp = TST;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /53869E65;
+Reference = P2;
+ValeurCmp = TST;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /536C7E1D;
+Reference = Q1;
+ValeurCmp = TPS3809L30;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /536C7793;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+EndListe
