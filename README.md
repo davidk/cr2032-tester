@@ -1,11 +1,7 @@
-# CR20\*\* battery tester
+# CR2032 battery tester
 
-This is a mashup of parts from Contextual Electronics' Getting To Blinky board, and eevblog's µCurrent.
-
-On this board is a Texas Instruments TPS3809L30DBVR (µCurrent's battery tester), a 0603\* series resistor,
-20mm coin cell holder and 0805\* LED to indicate whether or not your coin cell is a goner (at < 2.64v). 
-
-\* Imperial units
+Test your CR2032 coin cells using this breakout. Below 2.64v, the LED ceases to light,
+indicating that the coin cell is nearing the end of its useful life.
 
 ## Bill of Materials
 
@@ -30,4 +26,8 @@ I used the following parts for these, but you should really source to your desir
 
 ## License
 
-CC0
+Creative Commons CC0 1.0 Universal
+
+## Trivia
+
+This board is actually a mashup of Chris Gammell's and Dave Jones' projects. The coin cell holder and layout comes from the free Getting to Blinky KiCAD tutorial. The part and usage is derived from Dave Jones' µCurrent.
