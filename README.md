@@ -7,16 +7,12 @@ light, indicating that the coin cell is nearing the end of its useful life.
 
 This builds 1 board. You'll get at least 3 from OSHPark.
 
-| Quantity | Description | Digikey/Mouser Part Number | Board Placement | |
--------- | ----------- | ------------------- | --------------- | | 1        |
-TPS3809L30DBVR |
-[296-10917-1-ND](http://www.digikey.com/product-detail/en/TPS3809L30DBVR/296-10917-1-ND)
-/ [595-TPS3809L30DBVR](http://www.mouser.com/access/?pn=595-TPS3809L30DBVR) | Q1
-| | 1        | 20mm coin cell holder (through-hole) |
-[3003K-ND](http://www.digikey.com/product-detail/en/3003/3003K-ND) /
-[534-3003](http://www.mouser.com/access/?pn=534-3003) | Rear | | 1 | 0603
-imperial series resistor for LED | Generic value\*\* | R1 | 1 | 0805 imperial
-LED | Generic/Any type\*\*\* | D1 |
+| Quantity | Description | Digikey/Mouser Part Number | Board Placement |
+| -------- | ----------- | ------------------- | --------------- |
+| 1 | TPS3809L30DBVR | [296-10917-1-ND](http://www.digikey.com/product-detail/en/TPS3809L30DBVR/296-10917-1-ND) / [595-TPS3809L30DBVR](http://www.mouser.com/access/?pn=595-TPS3809L30DBVR) | Q1 |
+| 1 | 20mm coin cell holder (through-hole) | [3003K-ND](http://www.digikey.com/product-detail/en/3003/3003K-ND) / [534-3003](http://www.mouser.com/access/?pn=534-3003) | Rear |
+| 1 | 0603 imperial series resistor for LED | Generic value\*\* | R1 |
+| 1 | 0805 imperial LED | Generic/Any type\*\*\* | D1 |
 
 I used the following parts for these, but you should really source to your
 desired quantity:
