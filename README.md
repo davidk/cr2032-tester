@@ -39,8 +39,12 @@ Creative Commons CC0 1.0 Universal
 
 This board is actually a mashup of Chris Gammell's and Dave Jones' projects. The
 coin cell holder and layout comes from the free Getting to Blinky KiCAD
-tutorial. The part and usage is derived from Dave Jones' µCurrent.  
+tutorial. The TI part and usage is derived from Dave Jones' µCurrent.  
 
-The battery contact area was inspired by Adafruit's Ultimate GPS Breakout (leaving the
+The - battery contact area was inspired by Adafruit's Ultimate GPS Breakout (leaving the
 purple soldermask causes the copper ENIG contact area to be in-set, preventing
 an inserted battery from making proper contact).
+
+#### Power usage
+
+With a 1k series resistor and 0805 LED, this board uses approximately 1mA if the battery is left inserted with the LED on. Below the IC's threshold, everything takes up 9µA without the LED lit.
